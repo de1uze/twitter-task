@@ -1,3 +1,6 @@
+*{
+  background-color: white;
+}
 .logoContainer{
   width: 50vw;
   height: 94vh;
@@ -7,10 +10,13 @@
 }
 
 .logo{
-  width: 280px;
-  height: 250px;
+  width: 670px;
+  height: 690px;
   opacity: 0.8;
 }
+
+
+
 
 .loginContainer{
   width: 100%;
@@ -74,6 +80,8 @@
 .signUpLogo{
   width: 20px;
   margin-right: 0.8rem;
+
+  color: white;
 }
 
 .button{
@@ -86,6 +94,9 @@
   margin-top: 5px;
   font-size: 11px;
   color: #a3a3a3;
+  
+  
+  
 }
 
 .signIn{
@@ -138,6 +149,7 @@
 }
 
 .footer{
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -150,7 +162,7 @@
   text-decoration: none;
   padding: 2px 5px;
   font-size: 13px;
-  color: #a3a3a3;
+  color: #000000;
 }
 
 .footerContent:hover{
